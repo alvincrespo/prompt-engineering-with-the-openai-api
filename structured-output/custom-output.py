@@ -1,12 +1,12 @@
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv()  # loads .env file automatically
+load_dotenv()
 
-client = OpenAI()  # uses OPENAI_API_KEY from env
+client = OpenAI()
 
 def get_response(prompt):
-  # Create a request to the chat completions endpoint
+
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],
@@ -23,7 +23,7 @@ Use the following format for the output:
 - Title: <the generated title>
 """
 
-# Test the function with your prompt
+
 prompt = instructions + output_format + f"```{text}```"
 
 response = get_response(prompt)

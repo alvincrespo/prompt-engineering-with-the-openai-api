@@ -1,12 +1,12 @@
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv()  # loads .env file automatically
+load_dotenv()
 
-client = OpenAI()  # uses OPENAI_API_KEY from env
+client = OpenAI()
 
 def get_response(prompt):
-  # Create a request to the chat completions endpoint
+
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],
@@ -44,7 +44,7 @@ the code HOTEL456. There are some questions and issues related to my upcoming st
 that require your attention.
 """
 
-# Test the function with your prompt
+
 prompt = f"""
 Text: {ticket_1} -> Entities: {entities_1}
 Text: {ticket_2} -> Entities: {entities_2}

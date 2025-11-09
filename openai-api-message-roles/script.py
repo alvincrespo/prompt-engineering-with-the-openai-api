@@ -1,9 +1,9 @@
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv()  # loads .env file automatically
+load_dotenv()
 
-client = OpenAI()  # uses OPENAI_API_KEY from env
+client = OpenAI()
 
 # Create the OpenAI client: you can leave "<OPENAI_API_TOKEN>" as is
 client = OpenAI()

@@ -1,9 +1,9 @@
   from openai import OpenAI
   from dotenv import load_dotenv
 
-  load_dotenv()  # loads .env file automatically
+  load_dotenv()
 
-  client = OpenAI()  # uses OPENAI_API_KEY from env
+  client = OpenAI()
 
   def get_response(prompt):
     response = client.chat.completions.create(

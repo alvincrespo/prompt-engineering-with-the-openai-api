@@ -1,12 +1,12 @@
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv()  # loads .env file automatically
+load_dotenv()
 
-client = OpenAI()  # uses OPENAI_API_KEY from env
+client = OpenAI()
 
 def get_response(prompt):
-  # Create a request to the chat completions endpoint
+
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],
@@ -19,7 +19,7 @@ triple-camera, octa-core processor, 5000mAh battery, 5G connectivity, and Androi
 Secure with fingerprint and facial recognition. 128GB storage, expandable up to 512GB.
 """
 
-# Test the function with your prompt
+
 prompt = f"""
 Identify the following entities from the text delimited by triple backticks:
 - Product Name

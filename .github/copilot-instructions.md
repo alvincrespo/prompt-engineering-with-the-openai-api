@@ -19,7 +19,7 @@ OpenAI client setup (required)
 
   ```python
   from openai import OpenAI
-  client = OpenAI()  # uses OPENAI_API_KEY from env
+  client = OpenAI()
   ```
 
 Dependencies and runtime
