@@ -13,7 +13,6 @@ def get_response(prompt):
     temperature = 0)
   return response.choices[0].message.content
 
-
 prompt = """"
 Create a poem about ChatGPT.
 

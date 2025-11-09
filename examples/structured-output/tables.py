@@ -6,13 +6,12 @@ load_dotenv()
 client = OpenAI()
 
 def get_response(prompt):
-
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],
     temperature = 0)
-  return response.choices[0].message.content
 
+  return response.choices[0].message.content
 
 prompt = """"
 Generate a table containing 5 movies I should watch if I love horror films. The columns should be: Movie Title and Rating.

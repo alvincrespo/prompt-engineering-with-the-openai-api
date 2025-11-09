@@ -6,11 +6,11 @@ load_dotenv()
 client = OpenAI()
 
 def get_response(prompt):
-
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],
     temperature = 0)
+
   return response.choices[0].message.content
 
 text = "Hey there! Check out our awesome summer deals! They're super cool, and you won't want to miss them. Grab 'em now!"

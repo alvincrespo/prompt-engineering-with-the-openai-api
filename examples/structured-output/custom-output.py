@@ -23,7 +23,6 @@ Use the following format for the output:
 - Title: <the generated title>
 """
 
-
 prompt = instructions + output_format + f"```{text}```"
 
 response = get_response(prompt)

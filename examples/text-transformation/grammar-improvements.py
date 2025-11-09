@@ -6,7 +6,6 @@ load_dotenv()
 client = OpenAI()
 
 def get_response(prompt):
-
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],

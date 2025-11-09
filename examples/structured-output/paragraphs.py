@@ -6,13 +6,12 @@ load_dotenv()
 client = OpenAI()
 
 def get_response(prompt):
-
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],
     temperature = 0)
-  return response.choices[0].message.content
 
+  return response.choices[0].message.content
 
 prompt = """"
 Provide a structured paragraph with clear headings and subheadings about the benefits of regular exercise on overall health and well-being.
@@ -22,7 +21,6 @@ response = get_response(prompt)
 print(response)
 
 # Output:
-
 """
 # Benefits of Regular Exercise on Overall Health and Well-Being
 

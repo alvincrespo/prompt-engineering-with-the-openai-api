@@ -16,6 +16,5 @@ def get_response(prompt):
 
   return response.choices[0].message.content
 
-
 response = get_response("What is prompt engineering?")
 print(response)

@@ -6,11 +6,11 @@ load_dotenv()
 client = OpenAI()
 
 def get_response(prompt):
-
   response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}],
     temperature = 0)
+
   return response.choices[0].message.content
 
 text = "omg, I can't believe how awesome this product is! It's like the best thing ever! You guys gotta try it out!"
