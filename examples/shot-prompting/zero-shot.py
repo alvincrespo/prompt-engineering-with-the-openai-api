@@ -1,23 +1,10 @@
-from openai import OpenAI
-from dotenv import load_dotenv
-
-load_dotenv()
-
-client = OpenAI()
-
-def get_response(prompt):
-  response = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": prompt}],
-    temperature = 0)
-  return response.choices[0].message.content
+from utils.openai_client import get_response
 
 prompt = """
 What is prompt engineering?
 """
 
-response = get_response(prompt)
-print(response)
+print(get_response(prompt))
 
 # Output:
 # Prompt engineering is the process of designing and refining the input prompts given to artificial intelligence models, particularly language models like GPT-3 and its successors, to elicit the most accurate, relevant, and useful responses. It involves crafting the wording, structure, and context of prompts to guide the model's output effectively.
