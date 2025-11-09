@@ -136,3 +136,18 @@ You can combine transformations effectively:
 - **Translation + Simplification**: "Translate to Spanish AND use simple vocabulary"
 - **Tone + Length**: "Make it formal AND more concise"
 - **Grammar + Structure**: "Fix errors AND organize into bullet points"
+
+## References
+
+### OpenAI Resources
+- [Translation Best Practices](https://platform.openai.com/examples/default-translation) - Guidelines for multilingual tasks
+- [Prompt Engineering Best Practices: Text Transforming & Translation](https://pub.towardsai.net/prompt-engineering-best-practices-text-transforming-translation-d60858f86b85)
+
+### Writing and Style Guides
+- [The Elements of Style](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm) - Classic writing style reference
+- [AP Stylebook](https://www.apstylebook.com/) - Professional writing standards
+- [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/) - Technical writing guidelines
+
+### Tools and Resources
+- [Grammarly Research](https://www.grammarly.com/research) - Research on automated writing assistance
+- [Hemingway Editor](https://hemingwayapp.com/) - Readability and clarity tool

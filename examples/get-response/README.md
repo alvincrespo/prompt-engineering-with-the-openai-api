@@ -43,7 +43,7 @@ def get_response(input: Union[str, list[dict]]) -> str:
     Accepts either:
     - A simple string prompt
     - A list of message dictionaries with roles
-    
+
     Returns the model's response as a string
     """
 ```
@@ -78,3 +78,19 @@ The helper uses these default settings:
 - **Environment**: Loads from `.env` file
 
 To use different settings, you can modify `utils/openai_client.py` once, and all examples will inherit the changes.
+
+## References
+
+### Python Best Practices
+- [Python Modules Documentation](https://docs.python.org/3/tutorial/modules.html) - Understanding Python imports and modules
+- [Python Type Hints](https://docs.python.org/3/library/typing.html) - Type annotations and Union types
+- [Function Overloading in Python](https://peps.python.org/pep-0484/#function-method-overloading) - Using `@overload` decorator
+
+### OpenAI Python SDK
+- [OpenAI Python Library](https://github.com/openai/openai-python) - Official Python SDK documentation
+- [Python SDK Examples](https://platform.openai.com/docs/libraries/python-library) - Usage examples and patterns
+- [Environment Variables with python-dotenv](https://pypi.org/project/python-dotenv/) - Managing environment variables
+
+### Code Organization
+- [Clean Code Principles](https://www.oreilly.com/library/view/clean-code-a/9780136083238/) - Writing maintainable code
+- [DRY Principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Don't Repeat Yourself

@@ -21,3 +21,14 @@ python examples/getting-started/script.py
 ```
 
 **Key takeaway:** Always specify your desired output format and target audience to get more relevant, tailored responses. Clear instructions lead to better results.
+
+## References
+
+### Getting Started Resources
+- [OpenAI Quickstart Guide](https://platform.openai.com/docs/quickstart) - Official quickstart tutorial
+- [OpenAI API Documentation](https://platform.openai.com/docs/introduction) - Complete API introduction
+- [Your First API Call](https://platform.openai.com/docs/api-reference/making-requests) - Step-by-step guide to making API requests
+
+### Beginner Tutorials
+- [Learn Prompting: Basics](https://learnprompting.org/docs/basics/intro) - Beginner-friendly introduction
+- [Prompt Engineering 101](https://www.promptingguide.ai/introduction) - Foundational concepts and techniques

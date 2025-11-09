@@ -147,3 +147,14 @@ python examples/structured-output/custom-output.py
 - **Use examples** - Show the model what your ideal output looks like
 - **Request markdown formatting** - The model is excellent at markdown tables, headers, and lists
 - **Iterate** - Start simple and add constraints if the output includes unwanted elements
+
+## References
+
+### OpenAI Documentation
+- [Structured Outputs Guide](https://platform.openai.com/docs/guides/structured-outputs) - Official guide for JSON and structured responses
+- [JSON Mode](https://platform.openai.com/docs/guides/text-generation/json-mode) - Using JSON mode for reliable structured data
+- [Function Calling](https://platform.openai.com/docs/guides/function-calling) - Advanced structured output with function schemas
+
+### Additional Resources
+- [Prompt Engineering: Structured Output](https://www.promptingguide.ai/applications/generating_structured_data) - Techniques for generating structured data
+- [OpenAI Cookbook: Structured Data](https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models) - Practical examples for structured outputs

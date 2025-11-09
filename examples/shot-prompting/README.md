@@ -82,3 +82,15 @@ python examples/shot-prompting/few-shot-assistant.py
 - **Use one-shot for simple patterns** - Often sufficient for format guidance
 - **Use few-shot for complex tasks** - Classification, nuanced formatting, or domain-specific outputs
 - **Quality over quantity** - 3-5 well-chosen examples are usually better than many mediocre ones
+
+## References
+
+### Research Papers
+- [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165) - Foundational paper introducing few-shot learning with language models
+- [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Enhanced reasoning through step-by-step examples
+- [In-Context Learning Survey](https://arxiv.org/abs/2301.00234) - Comprehensive survey of in-context learning techniques
+
+### Guides and Tutorials
+- [OpenAI Guide: Few-Shot Learning](https://platform.openai.com/docs/guides/prompt-engineering/tactic-provide-examples) - Official documentation on providing examples
+- [Prompt Engineering Guide: Few-Shot Prompting](https://www.promptingguide.ai/techniques/fewshot) - Detailed techniques and best practices
+- [Few-Shot Prompting Examples](https://learnprompting.org/docs/basics/few_shot) - Practical examples and use cases

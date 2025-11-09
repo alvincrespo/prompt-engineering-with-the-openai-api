@@ -22,3 +22,13 @@ python examples/message-roles/script.py
 ```
 
 **Key takeaway:** System messages are powerful tools for setting the tone, expertise level, and behavior of the AI assistant. Use them to create specialized assistants for specific domains or tasks.
+
+## References
+
+### OpenAI Documentation
+- [Chat Completions API Guide](https://platform.openai.com/docs/guides/text-generation/chat-completions-api) - Official documentation on message roles
+- [Building a Conversational AI](https://platform.openai.com/docs/guides/text) - Creating chat-based applications
+
+### Tutorials and Examples
+- [OpenAI Cookbook: Chat Examples](https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models) - Formatting messages for chat models
+- [Role-Based Prompting Guide](https://www.promptingguide.ai/guides/context-engineering-guide.en#context-engineering-in-action) - Using personas and roles in prompts

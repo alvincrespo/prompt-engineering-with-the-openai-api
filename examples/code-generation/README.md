@@ -125,3 +125,19 @@ python examples/code-generation/prompts.py
 - **Provide context** - Include relevant information about the programming language, frameworks, or constraints
 - **Use examples** - Input-output examples are often clearer than lengthy descriptions
 - **Request step-by-step thinking** - For complex tasks, ask the model to "think step by step"
+
+## References
+
+### OpenAI Official Documentation
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official best practices and strategies
+- [OpenAI API Reference](https://platform.openai.com/docs/api-reference/chat) - Complete API documentation
+- [OpenAI Cookbook](https://cookbook.openai.com/) - Practical examples and code snippets for common use cases
+
+### Research Papers
+- [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Research on "Let's think step by step" approach
+- [Few-Shot Learning with Language Models](https://arxiv.org/abs/2005.14165) - GPT-3 paper covering few-shot prompting
+
+### Additional Resources
+- [Prompt Engineering Guide by DAIR.AI](https://www.promptingguide.ai/) - Comprehensive guide covering techniques and examples
+- [Learn Prompting](https://learnprompting.org/) - Free course on prompt engineering fundamentals
+- [OpenAI Developer Forum](https://community.openai.com/) - Community discussions and support

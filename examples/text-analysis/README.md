@@ -124,3 +124,18 @@ python examples/text-analysis/entity-extraction/few-shot.py
 - **Request confidence levels** - If needed, ask "how confident are you?" for uncertain classifications
 - **Handle edge cases** - Consider what should happen if no entities are found or text is ambiguous
 - **Use few-shot for complex patterns** - Provide examples when the extraction pattern is not straightforward
+
+## References
+
+### OpenAI Resources
+- [Text Classification Examples](https://platform.openai.com/docs/examples/default-tweet-classifier) - Official examples for text classification tasks
+- [OpenAI Cookbook: Entity Extraction](https://cookbook.openai.com/) - Practical examples for information extraction
+
+### Research and Guides
+- [Prompt Engineering Guide: Sentiment Classification with LLMs](https://www.promptingguide.ai/prompts/classification/sentiment) - Sentiment analysis and classification techniques
+- [Named Entity Recognition with LLMs](https://arxiv.org/abs/2305.15444) - Research on entity extraction with language models
+- [Zero-Shot Text Classification](https://arxiv.org/abs/1909.00161) - Research on classification without training data
+
+### Additional Resources
+- [spaCy NLP Library](https://spacy.io/) - Traditional NLP library for entity extraction and text analysis
+- [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/) - Comprehensive course covering text analysis tasks
